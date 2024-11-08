@@ -94,10 +94,10 @@ GEM
     date (3.4.0)
     diff-lcs (1.5.1)
     docile (1.4.1)
-    dotenv (2.8.1)
-    dotenv-rails (2.8.1)
-      dotenv (= 2.8.1)
-      railties (>= 3.2)
+    dotenv (3.1.4)
+    dotenv-rails (3.1.4)
+      dotenv (= 3.1.4)
+      railties (>= 6.1)
     drb (2.2.1)
     erubi (1.13.0)
     factory_bot (6.5.0)
@@ -312,7 +312,7 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.18)
+    zeitwerk (2.7.1)
 
 PLATFORMS
   aarch64-linux
@@ -325,7 +325,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   database_cleaner-redis (~> 2.0)
-  dotenv-rails (~> 2.8)
+  dotenv-rails (~> 3.1)
   factory_bot_rails (~> 6.2)
   faker (~> 3.2)
   graphql (~> 2.2)
