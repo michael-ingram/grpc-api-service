@@ -28,7 +28,7 @@ gem 'grpc'
 gem 'jwt', '~> 2.7'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 6.0.3'
+  gem 'rspec-rails', '~> 7.0.1'
   gem 'dotenv-rails', '~> 2.8' # Environment variable gem.
   gem 'pry-rails', '~> 0.3.9'
 end
