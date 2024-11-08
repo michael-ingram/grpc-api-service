@@ -93,11 +93,12 @@ class GraphqlController < ApplicationController
     begin
       yield
     rescue StandardError => e
+      binding.pry
       # QueenBee::ApplicationMonitor.report_error(
       #   description: "Failed to execute query",
       #   error: e
       # )
-      render json: {error_code: 'NB0', error_message: 'Unknown NavBlue Error'}
+      render json: {error_code: 'NB0', error_message: 'Unknown API Service Error'}
     end
   end
 end
