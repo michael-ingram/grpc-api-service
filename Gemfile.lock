@@ -166,7 +166,7 @@ GEM
       reline (>= 0.4.2)
     jwt (2.9.3)
       base64
-    listen (3.8.0)
+    listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.1)
@@ -331,7 +331,7 @@ DEPENDENCIES
   graphql (~> 2.2)
   grpc
   jwt (~> 2.7)
-  listen (>= 3.0.5, < 3.9)
+  listen (>= 3.0.5, < 3.10)
   mock_redis (~> 0.38)
   pry-rails (~> 0.3.9)
   puma (~> 6.4)
