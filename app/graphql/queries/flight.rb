@@ -8,7 +8,8 @@ module Queries
 
     def resolve(unique_id:)
       execute('NB2', 'Unable to retrieve flight', {unique_id: unique_id}) do
-        flight = FlightClient.new.flight_by_id('18447')
+        flight = NavblueClient.new.flight_by_id(unique_id)
+
         {
           flight: flight
         }

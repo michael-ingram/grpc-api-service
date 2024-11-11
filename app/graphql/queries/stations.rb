@@ -6,7 +6,7 @@ module Queries
 
     def resolve
       execute("NV4", "Failed to retrieve Stations") do
-        response = StationsClient.new.get_stations
+        response = NavitaireClient.new.get_stations
 
         stations = response.stations.map do |station|
           # Convert each station to a hash
@@ -28,7 +28,7 @@ module Queries
             stationCode: station.station_code
           }
         end
-        binding.pry
+
         {stations: }
       end
     end
