@@ -136,7 +136,7 @@ GEM
       rake (>= 13)
     googleapis-common-protos-types (1.16.0)
       google-protobuf (>= 3.18, < 5.a)
-    graphql (2.4.2)
+    graphql (2.4.3)
       base64
       fiber-storage
     grpc (1.67.0)
@@ -328,7 +328,7 @@ DEPENDENCIES
   dotenv-rails (~> 2.8)
   factory_bot_rails (~> 6.2)
   faker (~> 3.2)
-  graphql (~> 2.2)
+  graphql (~> 2.4)
   grpc
   jwt (~> 2.7)
   listen (>= 3.0.5, < 3.9)
