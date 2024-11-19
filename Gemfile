@@ -29,7 +29,7 @@ gem 'jwt', '~> 2.7'
 
 group :development, :test do
   gem 'rspec-rails', '~> 6.0.3'
-  gem 'dotenv-rails', '~> 2.8' # Environment variable gem.
+  gem 'dotenv-rails', '~> 3.1' # Environment variable gem.
   gem 'pry-rails', '~> 0.3.9'
 end
 
