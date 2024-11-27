@@ -182,7 +182,7 @@ GEM
     method_source (1.1.0)
     mini_mime (1.1.5)
     minitest (5.25.1)
-    mock_redis (0.45.0)
+    mock_redis (0.48.0)
     msgpack (1.7.3)
     net-imap (0.5.0)
       date
@@ -332,7 +332,7 @@ DEPENDENCIES
   grpc
   jwt (~> 2.7)
   listen (>= 3.0.5, < 3.9)
-  mock_redis (~> 0.38)
+  mock_redis (~> 0.48)
   pry-rails (~> 0.3.9)
   puma (~> 6.4)
   rack-cors (~> 2.0)

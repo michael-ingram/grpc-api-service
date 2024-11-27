@@ -41,7 +41,7 @@ group :test do
   gem 'simplecov', '~> 0.22', require: false
   gem 'simplecov-lcov', '~> 0.8', require: false
   gem 'webmock', '~> 3.19'
-  gem 'mock_redis', '~> 0.38', require: false # Redis testing gem.
+  gem 'mock_redis', '~> 0.48', require: false # Redis testing gem.
 end
 
 group :development do
